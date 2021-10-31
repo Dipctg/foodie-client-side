@@ -16,6 +16,8 @@ import Breakfast from './Component/AllServices/Breakfast';
 import Lunch from './Component/AllServices/Lunch';
 import Dinner from './Component/AllServices/Dinner';
 import Desert from './Component/AllServices/Desert';
+import OrderReview from './Component/Client/OrderReview';
+import Footer from './Component/Footer/Footer';
 
 
 function App() {
@@ -48,6 +50,9 @@ function App() {
               <PrivateRoute path="/desert">
                 <Desert></Desert>
               </PrivateRoute>
+              <PrivateRoute path="/orderReview">
+                <OrderReview></OrderReview>
+              </PrivateRoute>
               <Route path="/events">
                 <Events></Events>
               </Route>
@@ -65,6 +70,7 @@ function App() {
                 <NotFound></NotFound>
               </Route>
             </Switch>
+            <Footer></Footer>
           </div>
         </Router>
       </AuthProvider>

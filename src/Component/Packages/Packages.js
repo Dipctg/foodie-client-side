@@ -6,7 +6,7 @@ import Package from '../Package/Package';
 const Packages = () => {
     const [packages, SetPackages] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/packages')
+        fetch('https://shocking-castle-07906.herokuapp.com/packages')
             .then(res => res.json())
             .then(data => {
                 SetPackages(data)

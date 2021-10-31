@@ -20,6 +20,7 @@ const NavBar = () => {
                 <Link as={HashLink} className="text-decoration-none p-2" to="/home#home">Home</Link>
                 <Link as={HashLink} className="text-decoration-none p-2" to="/packages">Packages</Link>
                 <Link as={HashLink} className="text-decoration-none p-2" to="/events">Events</Link>
+                <Link as={HashLink} className="text-decoration-none p-2" to="/orderReview">Order Review</Link>
 
                 <Link as={HashLink} className="text-decoration-none p-2" to="/aboutus">About US</Link>
 

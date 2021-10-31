@@ -15,7 +15,7 @@ const Header = () => {
 
             <div style={{
                 padding: '5px 10px',
-                backgroundColor: "blue",
+                backgroundColor: "#2f997bf7",
                 color: "black",
 
 

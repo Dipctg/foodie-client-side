@@ -5,7 +5,7 @@ import Package from '../Package/Package';
 const Dinner = () => {
     const [dinner, SetDinner] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/packages')
+        fetch('https://shocking-castle-07906.herokuapp.com/packages')
             .then(res => res.json())
             .then(data => {
                 SetDinner(data)
